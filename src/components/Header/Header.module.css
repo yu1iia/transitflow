@@ -1,0 +1,41 @@
+.header {
+  width: 100%;
+  margin: 0;
+  padding: 46px 0px;
+  background-color: #091242;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  list-style-type: none;
+}
+.navigation_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  font-family: 'Krub';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: none;
+}
+.navigation_item:not(:last-child) {
+  margin-right: 40px;
+}
+.svg_icon {
+  margin-right: 17px;
+  width: 63px;
+  height: 63px;
+}
+.navigation_logo {
+  margin-right: 17px;
+}
