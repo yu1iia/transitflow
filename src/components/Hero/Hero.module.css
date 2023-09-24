@@ -1,0 +1,16 @@
+.hero_list {
+  display: flex;
+  list-style-type: none;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.social {
+  display: flex;
+}
+.social_button {
+  width: 20px;
+  height: 20px;
+}

@@ -98,34 +98,20 @@
 import { Rubik } from 'next/font/google';
 import Link from 'next/link';
 import Header from '../components/Header';
+import Hero from '../components/Hero';
+
+import 'normalize.css/normalize.css';
 
 export const rubik = Rubik({
   subsets: ['latin'],
   display: 'swap',
 });
 
-<Header />;
 function Home() {
   return (
     <div>
       <Header />
-      <ul>
-        <li>
-          <Link href="/">Home</Link>
-        </li>
-        <li>
-          <Link href="/about">About</Link>
-        </li>
-        <li>
-          <Link href="/pages">Pages</Link>
-        </li>
-        <li>
-          <Link href="/project">Project</Link>
-        </li>
-        <li>
-          <Link href="/contact">Contact</Link>
-        </li>
-      </ul>
+      <Hero />;
     </div>
   );
 }
