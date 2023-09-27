@@ -9,45 +9,73 @@ import Linkedin from '../Linkedin';
 
 const Hero = () => {
   return (
-    <div>
+    <div className={styles.hero}>
       <div className={styles.container}>
-        <div>
-          <ul className={styles.hero_list}>
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-              <Link href="/about">About</Link>
-            </li>
-            <li>
-              <Link href="/pages">Pages</Link>
-            </li>
-            <li>
-              <Link href="/project">Project</Link>
-            </li>
-            <li>
-              <Link href="/contact">Contact</Link>
-            </li>
-          </ul>
+        <div className={styles.navigation_container}>
+          <div className={styles.navigation}>
+            <ul className={styles.pageList}>
+              <li className={styles.pageList_element}>
+                <Link className={styles.page} href="/">
+                  Home
+                </Link>
+              </li>
+              <li className={styles.pageList_element}>
+                <Link className={styles.page} href="/about">
+                  About
+                </Link>
+              </li>
+              <li className={styles.pageList_element}>
+                <Link className={styles.page} href="/pages">
+                  Pages
+                </Link>
+              </li>
+              <li className={styles.pageList_element}>
+                <Link className={styles.page} href="/project">
+                  Project
+                </Link>
+              </li>
+              <li className={styles.pageList_element}>
+                <Link className={styles.page} href="/contact">
+                  Contact
+                </Link>
+              </li>
+            </ul>
+
+            <div className={styles.social}>
+              <button className={styles.social_button}>
+                <Instagram />
+              </button>
+              <button className={styles.social_button}>
+                <Facebook />
+              </button>
+              <button className={styles.social_button}>
+                <Twitter />
+              </button>
+              <button className={styles.social_button}>
+                <Linkedin />
+              </button>
+            </div>
+            <button type="button" className={styles.request}>
+              Request Quote
+            </button>
+          </div>
         </div>
-        <div>
-          <button>
-            <Instagram />
-          </button>
-          <button>
-            <Facebook />
-          </button>
-          <button>
-            <Twitter />
-          </button>
-          <button>
-            <Linkedin />
-          </button>
+        <div className={styles.section}>
+          <h3 className={styles.title}>Logistics & Supply Chain Solutions</h3>
+          <h1 className={styles.header}>
+            Your Gateway <br />
+            to any Destination
+            <br />
+            in the World
+          </h1>
+          <p className={styles.description}>
+            In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie
+            inarcu <br /> no, iaculis vehicula ipsum. Nunc faucibus, nisl id
+            dapibus finibus, enim <br /> diam interdum nulla, sed laoreet risus
+            lectus.
+          </p>
         </div>
-        <button type="button">Request Quote</button>
       </div>
-      <h3>Protection</h3>
-      <h1>Password Protection</h1>
     </div>
   );
 };
