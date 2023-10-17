@@ -1,6 +1,9 @@
 import styles from './Hero.module.css';
 
 import Link from 'next/link';
+import Image from 'next/image';
+import arrow from '../../images/page-arrow.png';
+import line from '../../images/pattern1.png';
 
 import Facebook from '../Facebook';
 import Instagram from '../Instagram';
@@ -15,24 +18,36 @@ const Hero = () => {
           <div className={styles.navigation}>
             <ul className={styles.pageList}>
               <li className={styles.pageList_element}>
-                <Link className={styles.page} href="/">
+                <Link
+                  className={`${styles.page} ${styles.activePage}`}
+                  href="/"
+                >
                   Home
                 </Link>
+                <hr className={styles.menuSeparator} />
               </li>
               <li className={styles.pageList_element}>
                 <Link className={styles.page} href="/about">
                   About
                 </Link>
+                <hr className={styles.menuSeparator} />
               </li>
               <li className={styles.pageList_element}>
                 <Link className={styles.page} href="/pages">
                   Pages
                 </Link>
+                <Image
+                  className={styles.pageArrow}
+                  src={arrow}
+                  alt="list-arrow"
+                />
+                <hr className={styles.menuSeparator} />
               </li>
               <li className={styles.pageList_element}>
                 <Link className={styles.page} href="/project">
                   Project
                 </Link>
+                <hr className={styles.menuSeparator} />
               </li>
               <li className={styles.pageList_element}>
                 <Link className={styles.page} href="/contact">
@@ -61,7 +76,17 @@ const Hero = () => {
           </div>
         </div>
         <div className={styles.section}>
-          <h3 className={styles.title}>Logistics & Supply Chain Solutions</h3>
+          <div className={styles.titleContainer}>
+            <Image
+              className={styles.line}
+              src={line}
+              alt="line"
+              width={6}
+              height={23}
+            />
+            <h3 className={styles.title}>Logistics & Supply Chain Solutions</h3>
+          </div>
+
           <h1 className={styles.header}>
             Your Gateway <br />
             to any Destination
@@ -74,6 +99,7 @@ const Hero = () => {
             dapibus finibus, enim <br /> diam interdum nulla, sed laoreet risus
             lectus.
           </p>
+          <button className={styles.explore}>Explore More</button>
         </div>
       </div>
     </div>
