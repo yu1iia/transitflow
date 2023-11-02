@@ -99,6 +99,8 @@ import { Rubik } from 'next/font/google';
 import Link from 'next/link';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
+import Solutions from '../components/Solutions';
+import Cargo from '../components/Cargo';
 
 import 'normalize.css/normalize.css';
 
@@ -111,7 +113,9 @@ function Home() {
   return (
     <div>
       <Header />
-      <Hero />;
+      <Hero />
+      <Solutions />
+      <Cargo />
     </div>
   );
 }
