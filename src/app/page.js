@@ -101,6 +101,7 @@ import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Solutions from '../components/Solutions';
 import Cargo from '../components/Cargo';
+import Logistic from '../components/Logistic';
 
 import 'normalize.css/normalize.css';
 
@@ -116,6 +117,7 @@ function Home() {
       <Hero />
       <Solutions />
       <Cargo />
+      <Logistic />
     </div>
   );
 }

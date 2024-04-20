@@ -1,0 +1,118 @@
+.wrapper {
+  padding-top: 85px;
+  padding-bottom: 112px;
+  padding-left: 86px;
+  padding-right: 93px;
+  margin: -138px auto 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  box-sizing: border-box;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto 97px;
+}
+.content {
+  width: 472px;
+}
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(232, 232, 232, 0.5);
+  width: 68px;
+  height: 23px;
+  margin-bottom: 15px;
+}
+.title {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: inline;
+  width: 100%;
+  height: 100%;
+  margin-left: 5px;
+  padding-top: 6px;
+}
+.header {
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.icon {
+  margin-right: 14px;
+}
+.logisticDescription {
+  color: rgba(102, 108, 137, 1);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.logisticList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.logisticLink {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.logisticItem {
+  color: rgba(28, 31, 53, 1);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.logisticCounterList {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 1020px;
+  height: 143px;
+  border-top: 1px solid rgba(212, 212, 212, 1);
+  border-bottom: 1px solid rgba(212, 212, 212, 1);
+}
+.logisticCounter {
+  font-family: Rubik;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 59.25px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.logisticCounter:first-child {
+  border-right: 1px solid rgba(212, 212, 212, 1);
+  padding-right: 110px;
+}
+.logisticItemDescription {
+  font-family: League Spartan;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 18.4px;
+  text-align: left;
+}
+.logisticCounterIcon {
+  display: block;
+  width: 17px;
+  height: 17px;
+  margin-left: 16px;
+  margin-right: 16px;
+  background: linear-gradient(
+    94.06deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
+}
