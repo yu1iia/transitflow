@@ -42,9 +42,9 @@ const Team = () => {
             </div>
 
             <ul className={styles.social}>
-              <li className={styles.icon}>
+              <li className={styles.socialIcon}>
                 <Image
-                  className={styles.Image}
+                  className={styles.icon}
                   src={twitterIcon}
                   alt="twitter icon"
                   width={22}
@@ -53,7 +53,7 @@ const Team = () => {
               </li>
               <li className={styles.socialIcon}>
                 <Image
-                  className={styles.Icon}
+                  className={styles.icon}
                   src={facebookIcon}
                   alt="facebook icon"
                   width={23}
@@ -82,21 +82,23 @@ const Team = () => {
           />
 
           <div className={styles.teamInfo}>
-            <p className={styles.teamMemberName}>Kathleen Smith</p>
-            <p className={styles.teamMemberPosition}>Designer</p>
+            <div className={styles.employeeDescription}>
+              <p className={styles.teamMemberName}>Kathleen Smith</p>
+              <p className={styles.teamMemberPosition}>Designer</p>
+            </div>
             <ul className={styles.social}>
-              <li className={styles.icon}>
+              <li className={styles.socialIcon}>
                 <Image
-                  className={styles.Image}
+                  className={styles.icon}
                   src={linkedinIcon}
                   alt="linkedin icon"
                   width={22}
                   height={22}
                 />
               </li>
-              <li className={styles.icon}>
+              <li className={styles.socialIcon}>
                 <Image
-                  className={styles.Image}
+                  className={styles.Icon}
                   src={twitterIcon}
                   alt="twitter icon"
                   width={22}
@@ -134,12 +136,14 @@ const Team = () => {
           />
 
           <div className={styles.teamInfo}>
-            <p className={styles.teamMemberName}>Rebecca Tylor</p>
-            <p className={styles.teamMemberPosition}>Designer</p>
+            <div className={styles.employeeDescription}>
+              <p className={styles.teamMemberName}>Rebecca Tylor</p>
+              <p className={styles.teamMemberPosition}>Designer</p>
+            </div>
             <ul className={styles.social}>
               <li className={styles.socialIcon}>
                 <Image
-                  className={styles.Icon}
+                  className={styles.icon}
                   src={facebookIcon}
                   alt="facebook icon"
                   width={23}
