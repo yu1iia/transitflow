@@ -2,8 +2,6 @@ import styles from './Logistic.module.css';
 import Image from 'next/image';
 
 import line from '../../images/pattern1.png';
-// import moving from '../../images/moving2.png';
-// import plane from '../../images/plane1.jpg';
 import box from '../../images/box-icon.png';
 import money from '../../images/money-icon.png';
 import logistic from '../../images/logistic.png';
