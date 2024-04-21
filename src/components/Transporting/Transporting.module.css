@@ -1,5 +1,4 @@
 .container {
-  padding-top: 35px;
   padding-bottom: 98px;
   width: 1672px;
   margin: 0 auto;
@@ -45,6 +44,7 @@
   display: block;
   margin: 0 auto;
   cursor: pointer;
+  border: none;
 }
 .transportingItemTank {
   background-image: url('../../images/tank.png');
