@@ -1,0 +1,85 @@
+.container {
+  height: 897px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  background-color: rgba(244, 244, 244, 1);
+}
+.background {
+  width: 50%;
+  box-sizing: border-box;
+  background-color: rgba(9, 18, 66, 1);
+  padding-top: 140px;
+  padding-left: 700px;
+}
+.planeButton {
+  margin-top: -200px;
+  margin-left: 220px;
+  z-index: 10000;
+  position: absolute;
+  bottom: 130px;
+}
+.proposition {
+  width: 50%;
+  box-sizing: border-box;
+  padding-top: 200px;
+  margin-left: 200px;
+  background-color: rgba(244, 244, 244, 1);
+}
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 102px;
+  height: 23px;
+  margin-bottom: 15px;
+}
+.title {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: inline;
+  width: 100%;
+  height: 100%;
+  margin-left: 5px;
+  padding-top: 6px;
+}
+.header {
+  font-size: 35px;
+  font-weight: 600;
+  width: 494px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+}
+.chooseDescription {
+  color: rgba(102, 108, 137, 1);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 60px;
+}
+.chooseList {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  width: 553px;
+}
+.icon {
+  margin-right: 12px;
+}
+.chooseElement {
+  display: flex;
+  align-items: center;
+  width: 220px;
+  margin-bottom: 20px;
+}
+.services {
+  margin: 0;
+  color: rgba(28, 31, 53, 1);
+  font-family: Rubik;
+}
