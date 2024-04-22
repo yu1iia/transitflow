@@ -107,6 +107,7 @@ import Feedback from '../components/Feedback';
 import Choose from '../components/Choose';
 import Team from '../components/Team';
 import Contact from '../components/Contact';
+import News from '../components/News';
 
 import 'normalize.css/normalize.css';
 
@@ -128,6 +129,7 @@ function Home() {
       <Choose />
       <Team />
       <Contact />
+      <News />
     </div>
   );
 }
