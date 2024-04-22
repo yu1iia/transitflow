@@ -1,0 +1,153 @@
+.container {
+  padding-top: 143px;
+  padding-bottom: 143px;
+
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(9, 18, 66, 1);
+}
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.contactWrapper {
+  margin-right: 88px;
+}
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 53px;
+  height: 23px;
+  margin-bottom: 16px;
+}
+.title {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: inline;
+  width: 100%;
+  height: 100%;
+  margin-left: 5px;
+  padding-top: 6px;
+  color: rgba(255, 255, 255, 1);
+}
+.header {
+  font-size: 35px;
+  font-weight: 600;
+  width: 100%;
+  letter-spacing: 0em;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+  color: rgba(255, 255, 255, 1);
+}
+.contactDescription {
+  font-family: Krub;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24.24px;
+  text-align: left;
+  width: 353px;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 32px;
+}
+.icon {
+  margin-right: 13px;
+}
+.contactDetails {
+  color: rgba(255, 255, 255, 1);
+  font-family: Krub;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18.9px;
+  text-align: left;
+}
+.phoneNumber,
+.contactEmail {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+.contactList {
+  list-style-type: none;
+  padding: 0;
+}
+.contactItem {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+.contactForm {
+  width: 758px;
+  margin: 40px 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contactFormNameInput,
+.contactFormEmailInput,
+.contactFormPhoneInput,
+.contactFormCityInput {
+  width: 365px;
+  height: 60px;
+  box-sizing: border-box;
+  padding-left: 30px;
+  margin-bottom: 28px;
+  border: 1px solid rgba(78, 86, 131, 1);
+  background-color: rgba(9, 18, 66, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: League Spartan;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 18.4px;
+  text-align: left;
+}
+.contactFormMessage {
+  width: 758px;
+  height: 154px;
+  border: 1px solid rgba(78, 86, 131, 1);
+  background-color: rgba(9, 18, 66, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 21px 0 0px 24px;
+  margin-bottom: 30px;
+  font-family: League Spartan;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 18.4px;
+  text-align: left;
+}
+.contactFormNameInput {
+  margin-right: 28px;
+}
+.contactFormPhoneInput {
+  margin-right: 28px;
+}
+.contactFormButton {
+  width: 194px;
+  height: 60px;
+  border: none;
+  margin-bottom: 70px;
+  color: rgba(35, 33, 42, 1);
+  font-family: Krub;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.6px;
+  text-align: center;
+  background: linear-gradient(
+    94.06deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
+}
+.imagesList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}

@@ -106,6 +106,7 @@ import Transporting from '../components/Transporting';
 import Feedback from '../components/Feedback';
 import Choose from '../components/Choose';
 import Team from '../components/Team';
+import Contact from '../components/Contact';
 
 import 'normalize.css/normalize.css';
 
@@ -126,6 +127,7 @@ function Home() {
       <Feedback />
       <Choose />
       <Team />
+      <Contact />
     </div>
   );
 }
