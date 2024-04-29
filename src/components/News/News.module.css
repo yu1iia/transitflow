@@ -28,3 +28,31 @@
   margin: 0 auto;
   margin-bottom: 40px;
 }
+.newsList {
+  border-top: 1px solid rgba(214, 214, 214, 1);
+  list-style-type: none;
+  padding: 30px 0 0;
+}
+.newsElement {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 35px;
+  border-bottom: 1px solid rgba(214, 214, 214, 1);
+}
+.newsDescription {
+  border-left: 1px solid rgba(214, 214, 214, 1);
+}
+.newsDate {
+  display: flex;
+  flex-direction: column;
+}
+.transportingMoreButton {
+  color: rgba(255, 255, 255, 1);
+  width: 194px;
+  height: 60px;
+  background-image: url('../../images/more-button.png');
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  border: none;
+}
