@@ -1,6 +1,7 @@
 .container {
   padding-top: 95px;
-  width: 1200px;
+  padding-bottom: 100px;
+  width: 943px;
   margin: 0 auto;
 }
 .titleContainer {
@@ -28,24 +29,50 @@
   margin: 0 auto;
   margin-bottom: 40px;
 }
+.newsImage:hover {
+  background-image: url('../../images/cargo7.png');
+}
 .newsList {
   border-top: 1px solid rgba(214, 214, 214, 1);
   list-style-type: none;
-  padding: 30px 0 0;
+  padding: 30px 0 25px;
 }
 .newsElement {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-bottom: 35px;
   border-bottom: 1px solid rgba(214, 214, 214, 1);
 }
 .newsDescription {
   border-left: 1px solid rgba(214, 214, 214, 1);
+  padding-left: 29px;
+  width: 500px;
 }
 .newsDate {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
 }
+.newsDay {
+  font-family: Rubik;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 47.4px;
+  text-align: center;
+}
+.newsTitle {
+  font-family: Rubik;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29.63px;
+  text-align: left;
+  color: rgba(28, 31, 53, 1);
+}
+/* .newsTitle:hover {
+  color: rgba(255, 190, 52, 1);
+} */
 .transportingMoreButton {
   color: rgba(255, 255, 255, 1);
   width: 194px;
@@ -55,4 +82,24 @@
   margin: 0 auto;
   cursor: pointer;
   border: none;
+}
+.newsContentList {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+.newsContent {
+  font-family: Krub;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24.24px;
+  text-align: left;
+  color: rgba(102, 108, 137, 1);
+}
+.newsDetails {
+  font-family: Krub;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26.64px;
+  text-align: left;
+  color: rgba(28, 31, 53, 1);
 }

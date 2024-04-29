@@ -45,11 +45,13 @@ const News = () => {
           </span>
           <div className={styles.newsDescription}>
             <h3 className={styles.newsTitle}>
-              Inland freight a worthy solution for your business
+              Inland freight a worthy <br />
+              solution for your business
             </h3>
             <p className={styles.newsContent}>
-              We are dedicated in creating added value for our customers by
-              implementing modern technology in our work.
+              We are dedicated in creating added value
+              <br /> for our customers by implementing modern
+              <br /> technology in our work.
             </p>
             <ul className={styles.newsContentList}>
               <li className={styles.newsDetails}>Urgent transport solutions</li>
@@ -84,11 +86,13 @@ const News = () => {
           </span>
           <div className={styles.newsDescription}>
             <h3 className={styles.newsTitle}>
-              How technology can help redraw the supply chain map
+              How technology can help <br />
+              redraw the supply chain map
             </h3>
             <p className={styles.newsContent}>
-              We are dedicated in creating added value for our customers by
-              implementing modern technology in our work.
+              We are dedicated in creating added value <br />
+              for our customers by implementing modern <br />
+              technology in our work.
             </p>
             <ul className={styles.newsContentList}>
               <li className={styles.newsDetails}>Urgent transport solutions</li>
@@ -123,11 +127,13 @@ const News = () => {
           </span>
           <div className={styles.newsDescription}>
             <h3 className={styles.newsTitle}>
-              Five things you should have ready for your broker
+              Five things you should have
+              <br /> ready for your broker
             </h3>
             <p className={styles.newsContent}>
-              We are dedicated in creating added value for our customers by
-              implementing modern technology in our work.
+              We are dedicated in creating added value
+              <br /> for our customers by implementing modern <br />
+              technology in our work.
             </p>
             <ul className={styles.newsContentList}>
               <li className={styles.newsDetails}>Urgent transport solutions</li>
