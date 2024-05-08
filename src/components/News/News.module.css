@@ -35,12 +35,13 @@
 .newsList {
   border-top: 1px solid rgba(214, 214, 214, 1);
   list-style-type: none;
-  padding: 30px 0 25px;
+  padding: 0 0 25px;
 }
 .newsElement {
   display: flex;
   justify-content: space-around;
   padding-bottom: 35px;
+  padding-top: 35px;
   border-bottom: 1px solid rgba(214, 214, 214, 1);
 }
 .newsDescription {
@@ -69,10 +70,12 @@
   line-height: 29.63px;
   text-align: left;
   color: rgba(28, 31, 53, 1);
+  padding: 0;
+  margin: 10px 0 0;
 }
-/* .newsTitle:hover {
+.newsTitle:hover {
   color: rgba(255, 190, 52, 1);
-} */
+}
 .transportingMoreButton {
   color: rgba(255, 255, 255, 1);
   width: 194px;
