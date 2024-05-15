@@ -1,0 +1,21 @@
+.footer_logo {
+  background-color: rgba(9, 18, 66, 1);
+  padding-top: 43px;
+  padding-left: 45px;
+  padding-bottom: 38px;
+  padding-right: 170px;
+}
+.container {
+  width: 100vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(60, 64, 100, 1);
+  display: flex;
+  height: 118px;
+}
+.footer_nav {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+}

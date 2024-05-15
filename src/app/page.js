@@ -108,6 +108,8 @@ import Choose from '../components/Choose';
 import Team from '../components/Team';
 import Contact from '../components/Contact';
 import News from '../components/News';
+import Delivery from '../components/Delivery';
+import Footer from '../components/Footer';
 
 import 'normalize.css/normalize.css';
 
@@ -130,6 +132,8 @@ function Home() {
       <Team />
       <Contact />
       <News />
+      <Delivery />
+      <Footer />
     </div>
   );
 }
